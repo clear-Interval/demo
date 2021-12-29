@@ -1,0 +1,54 @@
+.content-wrap {
+    margin-top: 30rpx;
+}
+
+.content-wrap-text {
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-left: 24rpx;
+}
+
+.content-list {
+    margin-left: 24rpx;
+    margin-top: 14rpx;
+    margin-bottom: 20rpx;
+}
+
+.content-item-wrap {
+    margin-left: 24rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-title-text {
+    font-size: 24rpx;
+}
+
+.content-title-text-gray {
+    font-size: 24rpx;
+    margin-left: 40rpx;
+    color: gray;
+}
+
+.content-list-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25rpx;
+}
+
+.content-image {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 10rpx;
+}
+
+.content-title-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-description {
+    color: #aaa;
+    font-size: 28rpx;
+}

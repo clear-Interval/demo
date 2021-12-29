@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    width: 100%;
+}
+
+.title-text {
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.data-container {
+    margin-top: 8rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.data-title-container {
+    width: 220rpx;
+    line-height: 30rpx;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.data-title-text {
+    font-size: 24rpx;
+    text-overflow: ellipsis;
+}
+
+.card-img {
+    width: 220rpx;
+    height: 250rpx;
+    border-radius: 10rpx;
+}

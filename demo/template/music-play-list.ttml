@@ -1,0 +1,19 @@
+<template name='music-play-list'>
+    <view class='music-play-list'>
+        <view class='music-play-list-item'>
+            <image class='music-play-list-image'
+                src='https://bkimg.cdn.bcebos.com/pic/279759ee3d6d55fbb2fbce7de273584a20a446237714?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg'></image>
+            <view class='music-play-list-text'>
+                <text>我喜欢</text>
+            </view>
+        </view>
+
+        <view class='music-play-list-item'>
+            <image class='music-play-list-image'
+                src='https://img2.baidu.com/it/u=1810678401,4114124479&fm=26&fmt=auto'></image>
+            <view class='music-play-list-text'>
+                <text>最近播放</text>
+            </view>
+        </view>
+    </view>
+</template>

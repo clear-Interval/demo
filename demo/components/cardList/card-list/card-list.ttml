@@ -1,0 +1,13 @@
+<view class="container">
+    <view tt:for="{{list}}" class="list">
+        <text class="title-text">{{item.title}}</text>
+        <view class="data-container">
+            <view tt:for="{{item.data}}" tt:for-item="data" tt:for-index="i">
+                <image src="{{data.imgUrl}}" class="card-img"></image>
+                <view class="data-title-container">
+                    <text class="data-title-text">{{data.title}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

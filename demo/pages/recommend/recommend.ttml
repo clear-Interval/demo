@@ -1,0 +1,18 @@
+<view>
+    <card-list list="{{list}}"></card-list>
+    <view class="content-wrap">
+        <text class="content-wrap-text">民谣是写给自己的诗</text>
+        <view class="content-list">
+            <view class="content-list-item" tt:for="{{contentData}}">
+                <image class="content-image" src="{{item.imgUrl}}"></image>
+                <view class="content-item-wrap">
+                    <view class="content-title-wrap">
+                        <text class="content-title-text">{{item.title}}</text>
+                        <text class="content-title-text-gray">{{item.singer}}</text>
+                    </view>
+                    <text class="content-description">{{item.description}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

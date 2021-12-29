@@ -1,0 +1,10 @@
+.container {
+    height: 100%;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    box-sizing: border-box;
+}
+
+page {
+    height: 100%;
+}
